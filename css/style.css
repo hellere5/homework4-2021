@@ -74,8 +74,8 @@ a{
 td{
   text-align: center;
   border-top: 2px solid #000000;
-  padding: 10x;
-  border-collapse: separate;
+  padding: 10px;
+  vertical-align: middle;
 }
 
 
@@ -84,6 +84,7 @@ td{
   min-width: 125px;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0825;
   margin: auto;
@@ -92,6 +93,7 @@ td{
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
+  vertical-align: middle;
 }
 
 
@@ -131,9 +133,8 @@ tr:nth-child(even) {background-color: #d1d1d1;}
 
 /*Add selectors and rules here*/
 
-tr:hover {
-  background-color: #7e0825;
-  opacity: .25;
+tbody tr:hover {
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 
@@ -143,8 +144,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  right: 0;
   left: 0;
 }
